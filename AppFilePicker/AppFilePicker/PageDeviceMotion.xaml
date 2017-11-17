@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFilePicker.PageDeviceMotion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="button_capture" Text="Register" Clicked="OnRegister"></Button>
+            <Label x:Name="label_x" ></Label>
+            <Label x:Name="label_y" ></Label>
+            <Label x:Name="label_z" ></Label>
+            <microcharts:ChartView x:Name="chartView" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

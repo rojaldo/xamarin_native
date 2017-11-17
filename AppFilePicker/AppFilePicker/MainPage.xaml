@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppFilePicker"
+             x:Class="AppFilePicker.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Choose an example"
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="File picker" Clicked="GoToFilePicker"></Button>
+            <Button Text="Toast" Clicked="GoToToast"></Button>
+            <Button Text="Notification" Clicked="GoToNotification"></Button>
+            <Button Text="Text to speech" Clicked="GoToTTS"></Button>
+            <Button Text="Audio Player" Clicked="GoToPlayer"></Button>
+            <Button Text="Device Motion" Clicked="GoToDeviceMotion"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

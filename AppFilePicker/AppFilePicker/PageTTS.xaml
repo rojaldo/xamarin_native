@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFilePicker.PageTTS">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="entry_text" Text="Texto de prueba" HorizontalOptions="FillAndExpand"></Entry>
+            <Button x:Name="button_tts" Text="Speach" Clicked="Speach"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
